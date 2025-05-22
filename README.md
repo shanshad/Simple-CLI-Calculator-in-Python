@@ -63,18 +63,3 @@ press 'y' to continue calculation with 30 or 'n' to start new calculations or 'x
 
 ---
 
-## 🧠 Why This Project?
-This calculator is designed as a learning project for Python beginners. It demonstrates:
-
-. Use of functions
-
-. Conditional logic
-
-. Looping constructs
-
-. Basic error handling (e.g., division by zero)
-
----
-
-## 🛠️ How to Run
-Copy and paste the code into any Python interpreter or run it in an online compiler like replit.com, programiz.com/python-programming/online-compiler, or a local IDE.
