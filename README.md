@@ -1,2 +1,80 @@
-# Simple-CLI-Calculator-in-Python
-A beginner-friendly command-line calculator built in Python. It supports basic and advanced arithmetic operations including addition, subtraction, multiplication, division, modulus, and exponentiation, with support for chaining calculations.
+# 🔢 Simple CLI Calculator in Python
+
+This is a lightweight and beginner-friendly command-line calculator written in Python. The calculator supports basic and advanced arithmetic operations such as:
+
+- Addition (`+`)
+- Subtraction (`-`)
+- Multiplication (`*`)
+- Division (`/`) — with zero-division protection
+- Modulo (`%`)
+- Exponentiation (`^`)
+
+It also supports **chained calculations**, allowing you to continue calculations with the result of the previous one or start fresh as needed.
+
+---
+
+## 🚀 Features
+
+- User-friendly text interface
+- Handles division by zero gracefully
+- Continues with previous results or restarts calculation
+- Modular function-based design
+- Easy to read and extend
+
+---
+
+## 🔧 How It Works
+
+1. User enters the first number.
+2. Chooses an arithmetic operation.
+3. Enters the second number.
+4. Calculator performs the selected operation.
+5. Option to:
+   - Continue with result
+   - Start over
+   - Exit the program
+
+---
+
+## 📸 Sample
+
+```bash
+Enter first number : 5
++
+-
+*
+/
+%
+^
+Choose an operation : *
+Enter second Number : 4
+5 * 4 = 20
+press 'y' to continue calculation with 20 or 'n' to start new calculations or 'x' to exit : y
++
+-
+*
+/
+%
+^
+Choose an operation : +
+Enter second Number : 10
+20 + 10 = 30
+press 'y' to continue calculation with 30 or 'n' to start new calculations or 'x' to exit : x
+
+---
+
+🧠 Why This Project?
+This calculator is designed as a learning project for Python beginners. It demonstrates:
+
+. Use of functions
+
+. Conditional logic
+
+. Looping constructs
+
+. Basic error handling (e.g., division by zero)
+
+---
+
+🛠️ How to Run
+Copy and paste the code into any Python interpreter or run it in an online compiler like replit.com, programiz.com/python-programming/online-compiler, or a local IDE.
